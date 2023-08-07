@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Body color RGB</title>
+</head>
+<body>
+    <main class="principal_container">
+        <div class="internal_container">
+            <div class="color">
+                <label for="red">Rojo (RGB)</label>
+                <input type="range" id="red" min="0" max="255" value="24" step="1"> 
+                <p id="red-text"></p>
+            </div>
+            <div class="color">
+                <label for="green">Verde (RGB)</label>
+                <input type="range" id="green" min="0" max="255" value="40" step="1"> 
+                <p id="green-text"></p>
+            </div>
+            <div class="color">
+                <label for="blue">Azúl (RGB)</label>
+                <input type="range" id="blue" min="0" max="255" value="80" step="1"> 
+                <p id="blue-text"></p>
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
